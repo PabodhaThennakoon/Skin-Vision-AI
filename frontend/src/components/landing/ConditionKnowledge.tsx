@@ -12,7 +12,7 @@ export function ConditionKnowledge() {
       <div className="mx-auto max-w-page px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
         <SectionHeading
           eyebrow="Condition knowledge"
-          title="Understanding common skin lesions through AI"
+          title="Understanding  common skin lesions  through AI"
           body="Skin can develop many different types of spots, growths and lesions. Some are benign, while others may require professional evaluation. SkinVision AI uses computer vision to analyze dermatoscopic images and estimate which of seven predefined lesion categories is most likely represented in an uploaded image." />
 
         <Disclaimer

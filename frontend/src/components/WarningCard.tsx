@@ -1,6 +1,6 @@
 import React from 'react';
-import { MapPinIcon, TriangleAlertIcon } from 'lucide-react';
-import { Button } from './Button';
+import { TriangleAlertIcon } from 'lucide-react';
+import { ProfessionalCareCard } from './ProfessionalCareCard';
 import { warningSigns } from '../data/analysis';
 
 export function WarningCard() {
@@ -36,18 +36,7 @@ export function WarningCard() {
           </ul>
         </div>
 
-        <div className="shrink-0 rounded-2xl border border-coral-200 bg-white p-5 sm:p-6 lg:w-[280px]">
-          <h3 className="text-[16px] font-bold tracking-[-0.02em] text-ink-900">
-            Talk to a professional
-          </h3>
-          <p className="mt-2 text-[14px] leading-relaxed text-muted">
-            An in-person examination is the only way to confirm what a skin change actually is.
-          </p>
-          <Button size="md" className="mt-5 w-full">
-            <MapPinIcon className="h-4 w-4" aria-hidden="true" />
-            Find a Dermatologist
-          </Button>
-        </div>
+        <ProfessionalCareCard />
       </div>
     </section>);
 
